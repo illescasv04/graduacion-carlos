@@ -19,7 +19,7 @@
   $("btnWaze").href = "https://waze.com/ul?q=" + q + "&navigate=yes";
 
   var inicio = new Date(C.FECHA_EVENTO);
-  var fin = new Date(inicio.getTime() + 5 * 3600 * 1000);
+  var fin = new Date(inicio.getTime() + 4 * 3600 * 1000);
   var limite = new Date(C.FECHA_LIMITE);
   function utc(d) { return d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); }
   var titulo = "Graduación de Carlos Illescas";
