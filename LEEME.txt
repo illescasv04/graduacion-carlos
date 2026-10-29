@@ -1,0 +1,15 @@
+INVITACIÓN WEB — GRADUACIÓN CARLOS ILLESCAS
+
+Archivos:
+  index.html, styles.css, app.js  → la página
+  config.js                       → AQUÍ pegas la URL de Google Apps Script (API_URL)
+  vercel.json                     → hace que funcionen los links tipo /aprbg
+  og.jpg                          → imagen que aparece al mandar el link por WhatsApp
+  assets/                         → foto, logos y letras
+
+Probar antes de conectar Google (modo demo):
+  /demo       → invitado con 1 lugar (amigos)
+  /demo2      → invitado con 2 lugares (amigos)
+  /demopapas  → familia con 3 lugares (versión papás, letra grande, sin line up)
+
+Si cambias de dominio: actualiza la línea og:image en index.html y la celda B1 de la hoja Config.
